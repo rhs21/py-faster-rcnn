@@ -25,7 +25,7 @@ fi
 
 echo "Downloading Faster R-CNN demo models (695M)..."
 
-wget $URL -O $FILE
+wget -4 $URL -O $FILE
 
 echo "Unzipping..."
 
